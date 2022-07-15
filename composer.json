@@ -1,0 +1,26 @@
+{
+    "name": "radia/search_engine_extract",
+    "description": "library for crawling search engine results and extracting metadata for a set of keywords for the first 5 pages.",
+    "type": "library",
+    "require": {
+        "php": "7.3.*",
+        "guzzlehttp/guzzle": "7.*"
+    },
+    "require-dev": {
+        "php": "7.2.*",
+        "guzzlehttp/guzzle": "7.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "src\\": "./src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Radia Berreziga",
+            "email": "rberreziga@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
