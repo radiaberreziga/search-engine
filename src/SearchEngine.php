@@ -47,7 +47,7 @@ Class SearchEngine{
         switch ($engine){
             case "google.ae": $this->engine = "&g1=ae";break;
             case "google.com": $this->engine = "";break;
-            default : throw new Exception('Sorry:unknown search engine');
+            default : throw new Exception('Sorry: no search engine known');
         }
     }
 }

@@ -1,4 +1,4 @@
-# PHP search engine crawler 
+# PHP Search Engine Extract  SEE
 
 ## Installation
 
@@ -11,7 +11,7 @@ or you can add the package to your composer.json then `composer install`
 ```php
   "require": {
         //...
-        "radia/search-engine": "dev-main"
+        "radia/search-engine": "dev-master"
     }
 ```
 ## Usage
@@ -19,7 +19,7 @@ or you can add the package to your composer.json then `composer install`
 <?php
 $client = new src\SearchEngine();
 $client->setEngine('google.com');
-$results =  $client->search(['flower','horizon']);
+$results =  $client->search(['keyword1','keyword2']);
 ```
 ## search Engines
 supported search engine is `google.com` or `google.ae`
