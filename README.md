@@ -11,7 +11,7 @@ or you can add the package to your composer.json then `composer install`
 ```php
   "require": {
         //...
-        "radia/search-engine": "dev-master"
+        "search_engine_extract": "dev-master"
     }
 ```
 ## Usage
