@@ -5,7 +5,7 @@
 You can install the package via composer:
 
 ``` bash
-composer require radia/search-engine
+composer require radia/search_engine_extract
 ```
 or you can add the package to your composer.json then `composer install`
 ```php
